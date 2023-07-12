@@ -74,7 +74,7 @@
 							</ul>
 						</li> -->
 						<!-- <li> <a href="assets.html"><i class="fas fa-cube"></i> <span>Assests</span></a> </li> -->
-						<li> <a href="activities.html"><i class="far fa-bell"></i> <span>Activities</span></a> </li>
+						<li> <a href="{{url ('/billing')}}"><i class="far fa-bell"></i> <span>billing</span></a> </li>
 						<li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="expense-reports.html">Expense Report </a></li>

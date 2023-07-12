@@ -55,10 +55,13 @@ Route::get('form/customers',[BookingController::class,'customers']);
 Route::get('/all_rooms',[RoomController::class,'allrooms']);
 Route::get('/edit_rooms',[RoomController::class,'editrooms']);
 Route::get('/add_rooms',[RoomController::class,'addrooms']);
-Route::post('/save_rooms',[RoomController::class,'saveRoom']);
+Route::post('/add_rooms',[RoomController::class,'saveRoom']);
+Route::get('/delete_record1/{id}',[RoomController::class,'deleterecord1']);
 
 
 Route::get('employee/list',[EmployeeController::class,'listemployees']);
 Route::get('employee/leave',[EmployeeController::class,'leave']);
 Route::get('employee/holiday',[EmployeeController::class,'holiday']);
 Route::get('employee/attendence',[EmployeeController::class,'attendence']);
+
+Route::get('/billing',[EmployeeController::class,'attendence']);

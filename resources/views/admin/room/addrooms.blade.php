@@ -32,12 +32,12 @@
                     <div class="form-group">
                         <label for="room_type">Room Type</label>
                         <select name="room_type" id="room_type" class="form-control" required style="max-width: 300px;">
-                            <option value="s">Single</option>
-                            <option value="d">Double</option>
-                            <option value="s-AC">Single-AC</option>
-                            <option value="t">Triple</option>
-                            <option value="d-AC">Double-AC</option>
-                            <option value="t-AC">Triple-AC</option>
+                            <option value="single">Single</option>
+                            <option value="double">Double</option>
+                            <option value="single-AC">Single-AC</option>
+                            <option value="triple">Triple</option>
+                            <option value="double-AC">Double-AC</option>
+                            <option value="triple-AC">Triple-AC</option>
                         </select>
                     </div>
                     <div class="form-group">
