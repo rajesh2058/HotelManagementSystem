@@ -17,7 +17,7 @@
 						<li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="{{url ('/all_rooms')}}">All Rooms </a></li>
-								<li><a href="{{url ('/edit_rooms')}}"> Edit Rooms </a></li>
+		
 								<li><a href="{{url ('/add_rooms')}}"> Add Rooms </a></li>
 							</ul>
 						</li>	
@@ -74,14 +74,10 @@
 							</ul>
 						</li> -->
 						<!-- <li> <a href="assets.html"><i class="fas fa-cube"></i> <span>Assests</span></a> </li> -->
-						<li> <a href="{{url ('/billing')}}"><i class="far fa-bell"></i> <span>billing</span></a> </li>
-						<li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="expense-reports.html">Expense Report </a></li>
-								<li><a href="invoice-reports.html">Invoice Report </a></li>
-							</ul>
-						</li>
-						<!-- <li> <a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a> </li>
+						<li> <a href="{{url ('form/billing')}}"><i class="far fa-dollar-sign"></i> <span>billing</span></a> </li>
+						
+						<li> <a href="{{url ('form/payment history')}}"><i class="far fa-history"></i> <span>payment history</span></a> </li>
+						<li> <a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a> </li>
 						<li class="list-divider"></li>
 						<li class="menu-title mt-3"> <span>UI ELEMENTS</span> </li>
 						<li class="submenu"> <a href="#"><i class="fas fa-laptop"></i> <span> Components </span> <span class="menu-arrow"></span></a>

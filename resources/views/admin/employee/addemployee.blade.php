@@ -28,14 +28,14 @@
                                     </div>
                                     @endif
                                 </div>
-                                <h4 class="card-title float-left mt-2">Add Booking</h4>
+                                <h4 class="card-title float-left mt-2">Add employee</h4>
 
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <form action="{{ url('form/savebooking')}}" method="POST">
+                <form action="{{ url('form/saveemployee')}}" method="POST">
                     @csrf
                     <div class="row">
                         <div class="col-lg-12">

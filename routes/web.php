@@ -62,6 +62,10 @@ Route::get('/delete_record1/{id}',[RoomController::class,'deleterecord1']);
 
 
 Route::get('employee/list',[EmployeeController::class,'listemployees']);
+Route::get('form/addemployee',[EmployeeController::class,'addemployee']);
+Route::post('form/saveemployee',[EmployeeController::class,'saveEmployee']);
 Route::get('employee/leave',[EmployeeController::class,'leave']);
 Route::get('employee/holiday',[EmployeeController::class,'holiday']);
 Route::get('employee/attendence',[EmployeeController::class,'attendence']);
+
+Route::get('form/billing',[BillingController::class,'billing']);

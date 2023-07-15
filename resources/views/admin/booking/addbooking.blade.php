@@ -63,10 +63,10 @@
                                             <option>Select</option>
                                             <option>Single</option>
                                             <option>Double</option>
-                                            <option>Quad</option>
-                                            <option>King</option>
-                                            <option>Suite</option>
-                                            <option>Villa</option>
+                                            <option>triple</option>
+                                            <option>single-AC</option>
+                                            <option>double-AC</option>
+                                            <option>triple-AC</option>
                                         </select>
                                     </div>
                                 </div>

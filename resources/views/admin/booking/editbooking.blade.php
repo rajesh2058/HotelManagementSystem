@@ -49,10 +49,11 @@
                                             <option>Select</option>
                                             <option>Single</option>
                                             <option>Double</option>
-                                            <option>Quad</option>
-                                            <option>King</option>
-                                            <option>Suite</option>
-                                            <option>Villa</option>
+                                            <option>Triple</option>
+                                            <option>single-AC</option>
+                                            <option>Double-AC</option>
+                                            <option>Triple-AC</option>
+                                            
                                         </select>
                                     </div>
                                 </div>

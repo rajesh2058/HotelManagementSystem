@@ -97,9 +97,9 @@
                 var isActive = $button.hasClass("active");
 
                 if (isActive) {
-                    $button.removeClass("active btn-danger").addClass("bg-success-light").text("Active");
+                    $button.removeClass("active btn-danger").addClass("bg-success-light").text("Available");
                 } else {
-                    $button.addClass("active btn-danger").removeClass("bg-success-light").text("Inactive");
+                    $button.addClass("active btn-danger").removeClass("bg-success-light").text("booked");
                 }
             });
         });

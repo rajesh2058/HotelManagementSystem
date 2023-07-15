@@ -27,7 +27,7 @@ class EmployeeController extends Controller
     {
 
         $employee = new Employee;
-        $employee->emp_id = $request->input('emp_id');
+       $employee->emp_id = $request->input('emp_id');
         $employee->name = $request->input('name');
         $employee->email_id = $request->input('email_id');
         $employee->ph_number = $request->input('ph_number');

@@ -34,8 +34,8 @@
                         <select name="room_type" id="room_type" class="form-control" required style="max-width: 300px;">
                             <option value="single">Single</option>
                             <option value="double">Double</option>
-                            <option value="single-AC">Single-AC</option>
-                            <option value="triple">Triple</option>
+                            <option value="single-AC">Triple</option>
+                            <option value="triple">Single-AC</option>
                             <option value="double-AC">Double-AC</option>
                             <option value="triple-AC">Triple-AC</option>
                         </select>

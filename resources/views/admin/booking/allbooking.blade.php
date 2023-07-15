@@ -91,7 +91,7 @@
                                                     </div>
                                                 </td>
                                             </tr>
-                                         
+                                            @endforeach
 
                                         </tbody>
                                     </table>
@@ -116,7 +116,7 @@
         </div>
     </div>
     @include('admin.script')
-    @endforeach
+  
 
     <script>
         $(document).ready(function() {
